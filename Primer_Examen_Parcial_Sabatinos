@@ -1,0 +1,7 @@
+numero_inicial = int(input("Ingrese un numero cualquiera: "))
+sumatoria = 0
+for numero in range(numero_inicial):
+    sumatoria = sumatoria + (numero + 1)
+
+
+print("La sumatoria de los numeros desde el numero 1 hasta el numero que se ingreso es: ",sumatoria)
